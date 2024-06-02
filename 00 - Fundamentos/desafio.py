@@ -41,6 +41,7 @@ while True:
             saldo -= valor
             extrato += f"Saque: R$ {valor:.2f}\n"
             numero_saques += 1
+            print("Saque Concluido!")
 
         else:
             print("ERROR! Valor invalido!")
